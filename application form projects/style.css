@@ -1,0 +1,102 @@
+body {background-color: #003f69;
+      font-family: 'open sans', sans-serif;
+     color: #000000;
+}
+
+.header {font-family: questrial, sans-serif;
+         font-size: 40px;
+         text-align: center;
+         color: white;
+         margin-top: 45px;
+         margin-bottom: 0px;
+}
+
+section {width: 80%;
+         margin-left: auto;
+         margin-right: auto;
+         background-color: #fff;
+         border: none;
+         margin-top: 45px;      
+}/*Section styling*/
+
+div {width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 20px;
+     padding-bottom: 30px;
+}/*content space from section border*/
+
+.rows {padding-bottom: 12px;
+       width: 100%;
+       color: #424242;
+
+}/*space between rows*/
+
+.city, .address, .addinfo, .phone, .fullname, .email
+                                       {width: 100%;
+                                       height: 30px;
+                                       border-style: solid;
+                                       border-width: 1px;
+                                       color: #424242;
+}
+.addinfo {height: 60px}
+/*Size and width of basic input*/
+
+.parent {width: 100%;
+         height: 30px;
+         border-style: solid;
+         border-width: 1px;
+         color: #424242;
+}
+.child {color: #424242;
+        width: inherit;
+}
+/*styling of select input*/
+
+.submit, .reset {text-align: center;
+         background-color: #f99104;
+         color: white;
+         border: 10px solid #f99104;
+         font: 16px;
+}
+
+a {text-decoration: none}
+
+.reset {float: right}
+
+footer {margin-top: 50px}
+.developer {text-align: center;
+            color: white;
+            font-family: questrial, sans-serif;
+}
+
+/*END OF FIRST PAGE*/
+
+/*Sucess page*/
+
+.popup {position: fixed;
+       top: 50%;
+       width: 100%;
+       color: white;
+       font-family: questrial, sans-serif;
+       background-color: #f99104;
+       text-align: center;
+    
+}
+.over {overflow: hidden;}
+
+.pop {font-size: 20px}
+,a {color: #f99104;
+   text-decoration: none;
+   background-color: white;
+   padding: 6px;
+}
+
+
+
+
+
+
+
+
+

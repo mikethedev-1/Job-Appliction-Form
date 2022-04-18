@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>
+      Job application form
+    </title>
+  </head>
+    
+    <body class="over">
+        
+        <div class="popup">
+        <p class="pop">Application Successfully Submitted</p>
+        <p class="button"><a href="index.html" class="a">Return</a></p>
+        </div>
+        
+        <h1 class="header">Job Application Form</h1>
+        <!--FORM SECTION-->
+        <section>
+            
+            <div>
+                <!--START OF FORM-->
+            <form method="post" action="success.html">
+            <p class="rows">
+                <input type="text" name="fname" class="fullname" placeholder="Full name" autocomplete required disabled>
+           <!--first name and last name-->
+            </p>
+                
+            <p class="rows">
+                <input type="email" name="email" class="email" placeholder="Email address" autocomplete required disabled>
+                
+                </p>
+                
+                <p class="rows">
+                    
+                <input type="tel" name="phone number" class="phone" placeholder="phone number" autocomplete required disabled>
+                <!--Phone number and Email-->
+            </p>
+                
+            <p class="rows">
+                <select name="country" class="parent" required>
+                <span class="child" disabled> 
+                       <option value="Select country" disabled>Select country</option>
+                       <option value="Nigeria" disabled>Nigeria</option>
+                       <option value="South Africa" disabled>South Africa</option>
+                       <option value="Ghana" disabled>Ghana</option>
+                       <option value="Algeria" disabled>Algeria</option>
+                       <option value="Togo" disabled>Togo</option>
+                </span>
+                </select>
+                <!--country selection-->
+            </p>
+                
+            <p class="rows">
+                <input type="text" name="City" placeholder="City" required autocomplete class="city" disabled>
+                <!--City-->
+            </p>
+                
+            <p class="rows">
+                <input type="text" name="address" placeholder="Address" class="address" required autocomplete disabled>
+                <!--Address-->
+            </p>
+                
+            <p class="rows">
+                 <select name="type" class="parent" required placeholder="Select position" disabled>
+                <span class="child"> 
+                       <option value="Select position">Select position</option>
+                       <option value="Operator">Operator</option>
+                       <option value="Manager">Manager</option>
+                       <option value="Developer">Developer</option>
+                       <option value="Designer">Designer</option>
+                </span>
+                </select>
+                <!--position-->
+            </p>
+                
+            <p class="rows">
+                <textarea name="additional info" class="addinfo" placeholder="Additional info" disabled>
+                </textarea>
+                <!--additional information-->
+            </p>
+                
+            <p class="lastrow">
+                <input type="submit" value="Send" class="submit">
+                <input type="reset" value="Reset" class="reset">
+                <!--Reset and submit-->
+            </p>
+            
+            </form>
+                <!--end of form-->
+            </div>
+            
+        </section>
+        <!--end of section-->
+    
+    <footer>
+    <p class="developer">Developed by Adesanya Ademola</p>
+    </footer>
+    </body>
+</html>

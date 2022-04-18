@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <title>
+      Job application form
+    </title>
+  </head>
+    
+    <body>
+        
+        <h1 class="header">Job Application Form</h1>
+        <!--FORM SECTION-->
+        <section>
+            
+            <div>
+                <!--START OF FORM-->
+            <form method="post" action="success.html">
+            <p class="rows">
+                <input type="text" name="fname" class="fullname" placeholder="Full name" autocomplete required>
+           <!--first name and last name-->
+            </p>
+                
+            <p class="rows">
+                <input type="email" name="email" class="email" placeholder="Email address" autocomplete required>
+                
+                </p>
+                
+                <p class="rows">
+                    
+                <input type="tel" name="phone number" class="phone" placeholder="phone number" autocomplete required>
+                <!--Phone number and Email-->
+            </p>
+                
+            <p class="rows">
+                <select name="country" class="parent" required>
+                <span class="child"> 
+                       <option value="Select country">Select country</option>
+                       <option value="Nigeria">Nigeria</option>
+                       <option value="South Africa">South Africa</option>
+                       <option value="Ghana">Ghana</option>
+                       <option value="Algeria">Algeria</option>
+                       <option value="Togo">Togo</option>
+                </span>
+                </select>
+                <!--country selection-->
+            </p>
+                
+            <p class="rows">
+                <input type="text" name="City" placeholder="City" required autocomplete class="city">
+                <!--City-->
+            </p>
+                
+            <p class="rows">
+                <input type="text" name="address" placeholder="Address" class="address" required autocomplete>
+                <!--Address-->
+            </p>
+                
+            <p class="rows">
+                 <select name="type" class="parent" required placeholder="Select position">
+                <span class="child"> 
+                       <option value="Select position">Select position</option>
+                       <option value="Operator">Operator</option>
+                       <option value="Manager">Manager</option>
+                       <option value="Developer">Developer</option>
+                       <option value="Designer">Designer</option>
+                </span>
+                </select>
+                <!--position-->
+            </p>
+                
+            <p class="rows">
+                <textarea name="additional info" class="addinfo" placeholder="Additional info">
+                </textarea>
+                <!--additional information-->
+            </p>
+                
+            <p class="lastrow">
+                <a href="success.html" class="submit">Submit</a>
+                <input type="reset" value="Reset" class="reset">
+                <!--Reset and submit-->
+            </p>
+            
+            </form>
+                <!--end of form-->
+            </div>
+            
+        </section>
+        <!--end of section-->
+    
+    <footer>
+    <p class="developer">Developed by Adesanya Ademola</p>
+    </footer>
+    </body>
+</html>
